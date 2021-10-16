@@ -1,4 +1,7 @@
+// vue.config.js file to be place in the root of your repository
+
 module.exports = {
-  publicPath: '/kisre-project/',
-  putputDir: 'docs'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/kisre-project/'
+    : '/'
 }
