@@ -1,5 +1,4 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/kisre-project/'
-    : '/'
+  publicPath: '/kisre-project/',
+  putputDir: 'docs'
 }
